@@ -288,7 +288,7 @@ railcllayer.drawTile = function(canvas, tilePoint, zoom) {
 
 //注記
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://ghnocchi.github.io/vector-tile-experiment/style.js', false);
+xhr.open('GET', 'http://ghnocchi.github.io/vector-tile-experiment/style.js', false);
 xhr.send(null);
 var stylejs = eval( "(" + xhr.responseText + ")" );
 
